@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "0ad-game": {
+      "command": "node",
+      "args": ["mcp-bridge/bridge.js"],
+      "env": {
+        "MCP_0AD_HOST": "127.0.0.1",
+        "MCP_0AD_PORT": "6374"
+      }
+    }
+  }
+}
